@@ -7,7 +7,7 @@
 <body>
     <div class="main">
         <div class="navbar">
-        <a href="web.html">
+        <a href="index.php">
             <div class="icon">
                 
                 <img src="club.jpeg" alt="ISC Logo" class="isc-logo">
@@ -18,9 +18,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="web.html">HOME</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">EVENTS</a></li>
-                    <li><a href="members.php">MEMBERS</a></li>
+                    
                 </ul>
             </div>
         </div>

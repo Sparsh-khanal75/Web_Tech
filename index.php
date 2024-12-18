@@ -43,7 +43,13 @@
                 <input type="text" name="Sem" placeholder="Semester" required>
                 <button class="btnn" type="submit">Register</button>
             </form>
-           
+            <?php
+    // Check if the success query parameter is set
+    if (isset($_GET['success']) && $_GET['success'] == 'true') {
+        echo '<p style="color: green; font-weight: bold;">Registration Successful!</p>';
+    }
+    ?>
+  </div>
             <p class="liw">Connect with us:</p>
             <div class="icons">
                 <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>

@@ -31,7 +31,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Execute SQL query
     if ($conn->query($sql) === TRUE) {
-        echo "Record inserted successfully";
+        // Redirect to index.php with a success message
+        header("Location: index.php?success=true");
+        exit(); // Stop further execution
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
